@@ -1,0 +1,488 @@
+.topnavbar{
+    padding:5px;
+}
+.nav-head{
+    color:red;
+    font-size: 30px;
+}
+.nav-head:hover{
+    color:red;
+    text-decoration:none;
+}
+.navs{    
+    justify-content: flex-end;
+}
+.navs li a{
+    color:black;
+    text-decoration: none;
+    font-weight: bolder;
+    border:2px transparent solid;
+}
+.navs li a:hover{
+    border-bottom: 2px red solid;
+}
+.navbar-toggle-icon{
+    font-size:30px;
+    color:black;
+    font-weight: bolder;
+    padding: 0px 10px 5px 10px;
+    border: 1px grey solid;
+}
+
+/*            welcome banner          */
+#welcome{
+    width:100%;
+    padding: 50px 0 50px 0;
+    background-image: url('https://ssvtechnologies.in/wp-content/uploads/2018/04/banner-1050629__340.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hue;
+}
+.bannerImg{
+    width: 100%;
+    min-height: 300px;
+    max-height: 400px;
+}
+.welcome-h1{
+    color:white;
+    font-weight: 100;
+    line-height: 1.2em;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+.welcome-h2{
+    color:white;
+    font-weight: 300;
+    line-height: 1.2em;
+    font-size: 17px;
+    letter-spacing: 5px;
+}
+.cust-welcome-btn{
+    font-size:13px;
+    padding:7px 20px 7px 20px;
+}
+
+/*       say hey section        */
+
+#sayHeySection{
+    width: 100%;
+    margin: 0;padding:0;
+    background-color: #e43c5d;
+}
+.sayHeySectionHeading{padding: 55px;}
+.head1,.head2{
+    color: white;
+}
+.head1{font-size:40px;}
+.head2{font-size:30px;}
+
+/*       service section        */
+
+#ourServices{
+    background-color: white;
+    margin: 0%;
+    padding: 40px 0 40px 0;
+}
+.serviceHeading{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+.serviceBody{
+    font-size: 15px;
+    text-align: center;
+}
+.redLine{
+    min-height: 3px;
+    background: #e43c5d;
+    min-width: 100px;
+    width: 100px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+.serviceImg{
+    color: #e43c5d;
+    display: inline;
+    font-size: 40px;
+    font-weight: 100;
+}
+.serviceContent{
+    display: inline;
+}
+.services{
+    margin: 30px auto 30px auto;
+}
+.service{
+    padding:40px;
+}
+
+/* previous work */
+#previousWork{
+    background-color: white;
+    margin: 0%;
+    padding: 40px 0 40px 0;
+}
+.opw-icons{
+    padding:30px;
+    text-align: center; 
+}
+.opw-icon{
+    text-decoration: none;
+    color:rgb(90, 86, 86);
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+    transition: ease 0.5s;
+    border-radius: 4px;
+    margin: 20px;
+}
+.opw-icon:hover{
+    background-color: #e43c5d;
+    color:white;
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+.opw-imgs-grid{
+    padding:10px;
+}
+.opw-img{background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:200px;
+}
+.img-1{
+    background-image: url('https://www.psychoanalyse-praxis.wien/assets/images/dev/background.jpg');
+}
+.img-2{
+    background-image: url('https://previews.123rf.com/images/gbuglok/gbuglok1203/gbuglok120300011/12758539-colored-fineliners-on-architectural-project-background.jpg');
+}
+.img-3{
+    background-image: url('https://previews.123rf.com/images/gbuglok/gbuglok1202/gbuglok120200181/12444464-pencils-scale-ruler-and-colors-palette-on-architectural-project-background.jpg');
+}
+.img-4{
+    background-image: url('https://ak7.picdn.net/shutterstock/videos/16145977/thumb/1.jpg');
+}
+.img-5{
+    background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4968454.jpg');
+}
+.img-6{
+    background-image: url('https://www.ipfcc.org/images/rainbow-bulb-bgBlue.png');
+}
+.img-7{
+    background-image: url('https://c8.alamy.com/comp/PHT54B/school-accessories-on-a-yellow-blue-bright-background-back-to-school-concept-office-and-student-supplies-free-space-for-your-project-the-top-view-PHT54B.jpg');
+}
+.img-8{
+    background-image: url('https://cdn.trendhunterstatic.com/phpthumbnails/380/380171/380171_1_800.jpeg');
+}
+.img-9{
+    background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+}
+.img-10{
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+}
+.img-11{
+    background-image: url('https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+}
+.img-12{
+    background-image: url('https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg?size=626&ext=jpg');
+}
+
+
+/* our team */
+#ourTeam{
+    padding:80px 0px 80px 0px;
+}
+.teamHeading{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+.teamBody{
+    font-size: 15px;
+    text-align: center;
+}
+.teamMemberRow{
+    margin:80px auto 80px auto;
+}
+.teamMember{
+    border:1px grey solid;
+    margin:2px;
+}
+.teamImg1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height:200px;
+    background-image: url('https://www.w3schools.com/howto/img_avatar.png');
+}
+.teamImg2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height:200px;
+    height:auto;
+    background-image: url('https://www.w3schools.com/w3images/avatar2.png');
+}
+.teamSocialLinks {
+    text-align: center;
+    margin-top: 30px;
+}
+.teamDesc{
+    margin: 30px 0px 30px 0px;
+}
+.teamDesc h5{
+    font-size:18px;
+    color:black;
+    padding-bottom:7px;margin:0;
+}
+.teamDesc h6{
+    font-size:15px;
+    color:black;
+    padding-bottom:7px;margin:0;
+}
+.teamDesc p{
+    color:black;
+    padding-top:10px;margin:0;
+}
+.teamSocialLinks a{
+    padding: 11px;
+    color: white;
+}
+.fb{
+    background:#273b53;
+}
+.gplus{
+    background: #E84C3D;
+}
+.twtr{
+    background:#3598db;
+}
+.lnkdin{
+    background:#273b53;
+}
+/* request a quote section */
+#reqQuoteSection{
+    width: 100%;
+    margin:0;padding:40px;
+    background-color: #e43c5d;
+}
+.requestQuoteSectionHeading .head1{
+    font-size:25px;
+    color: white;
+    text-align: center;
+}
+
+/* contact form */
+#contactUs{
+    background-color: white;
+    margin: 0%;
+    padding: 40px 0 40px 0;
+}
+.contactHeading{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+.contactBody{
+    font-size: 15px;
+    text-align: center;
+}
+.form-inputs{
+    width: 100%;
+    padding:26px;
+    margin:20px 0px 10px 0px;
+    font-size: 15px;
+    /* margin:30px 20px 20px 20px; */
+    border:1px solid grey;
+    border-radius: 50px; 
+}
+.form-submit-btn{
+    background: #e43c5d;
+    border-radius: 50px;
+    padding:10px 50px 10px 50px;
+    color:white;
+    margin:auto;
+    font-weight: 400;
+    font-size:20px;
+    border:1px solid #e43c5d;
+}
+
+/* footer */
+#footer{
+    background: #040E18;
+    text-align: center;
+    margin: 0;
+    padding:40px 0 40px 0;
+}
+.footerHead{
+    color:white;
+    padding:30px;
+    margin:auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footerLinks{
+    padding:20px;
+}
+.footerLinks a{
+    background: #2D3537;
+    color:white;
+    padding: 10px;
+    margin:5px;
+}
+.footerbottom{
+    color:white;
+    padding:30px 0 20px 0;
+    margin:auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footerbottom span{
+    color:aquamarine;
+    padding:30px 0 20px 0;
+    margin:auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* custom media classes */
+
+/* for small screens */
+@media screen and (max-width:775px){
+    .nav-head{
+        font-size: 25px;
+    }
+    .navs{
+        justify-content: center;
+    } 
+    .navs li a{
+        font-size: 13px;
+        padding: 4px 8px;
+        font-weight: bold;
+        margin:0px 35% 0 35%;
+    }
+    .navs{
+        justify-content: center;
+        display: inline;
+        text-align: center;
+    }
+    .welcome-h1{
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+    .welcome-h2{
+        font-size: 15px;
+    }         
+    .cust-welcome-btn{ 
+        font-size: 10px;
+    }    
+    .sayHeySectionHeading{
+        padding: 25px;
+    }
+    .head1{font-size:30px;}
+    .head2{font-size:17px;}
+
+    .serviceHeading{
+        font-size: 30px;
+    }
+    .serviceImg{
+        font-size: 30px;
+    }
+    .services{
+        margin: 30px auto 30px auto;
+    }
+    .service{
+        padding:20px;
+    }
+    #previousWork{
+        padding: 0;
+    }
+    .opw-icons{
+        padding:30px 0 30px 0;
+    }
+    .opw-icon{
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+    }
+    .opw-imgs-grid{
+        padding:10px;
+    }
+    .opw-img{background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height:200px;
+    }
+    .teamHeading{
+        font-size: 30px;
+    }
+    .teamMemberRow{
+        margin:40px auto 40px auto;
+    }
+    .teamSocialLinks {
+        margin-top: 15px;
+    }
+    .teamDesc{
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+    }
+    .teamSocialLinks a{
+        padding: 5px;
+    }   
+    .teamDesc h5{
+        font-size:15px;
+        padding-bottom:7px;
+    }
+    .teamDesc h6{
+        font-size:14px;
+        padding-bottom:7px;
+    }
+    .teamDesc p{
+        font-size:15px;
+        padding-top:10px;
+    }
+    .requestQuoteSectionHeading .head1{
+        font-size:22px;
+    }    
+    .req-btn{
+        font-size:15px;
+        margin-top:20px; 
+    }
+    .contactHeading{
+        font-size: 30px;
+    }
+    .form-inputs{
+        padding:18px;
+        font-size: 14px;
+        border-radius: 40px;
+        margin: 10px 0 10px 0; 
+    }
+    .contactForm{
+        margin:20px 0 20px 0;
+    }
+    .form-submit-btn{
+        padding:10px 50px 10px 50px;
+        font-size:15px;
+        font-weight: 600;
+        margin-top: 10px; 
+    }
+    #footer{
+        background: #040E18;
+        text-align: center;
+        margin: 0;
+        padding:40px 0 40px 0;
+    }
+    .footerHead{
+        padding:20px;
+    }
+    .footerbottom{
+        padding:20px 0 10px 0;
+        font-size: 17px;
+    }
+    .footerbottom span{
+        font-size: 17px;
+        padding:20px 0 10px 0;
+    }
+}
+
+
